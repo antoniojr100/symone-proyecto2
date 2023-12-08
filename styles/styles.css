@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    font-family: Hedvig Letters Serif;
+    background: rgb(38,108,22);
+    background: radial-gradient(circle, rgba(38,108,22,1) 0%, rgba(135,234,136,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul{
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    transition-duration:  .5;
+    padding: 10px 15px;
+    border-radius: 90px;
+    border: 3px solid orange;
+    text-transform: uppercase;
+}
+
+.home-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 38px;
+}
+
+a, p{
+    font-size: 20ox;
+}
+
+header, section, footer{
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+#acerca-de-mi .image-container{
+    margin: 0 auto;
+    width: 60%;
+
+}
+img{
+    width: 100%;
+}
+
+#mis-photos .image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#photo1, #photo2{ 
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
